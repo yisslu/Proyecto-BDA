@@ -100,25 +100,4 @@ CREATE TABLE TARJETA(
 
 
 -- ///////////////////////////////////////////////
--- INDEX: Ref11 
 
-CREATE INDEX Ref11 ON EMPRESA(CLIENTE_ID)
-;
--- 
--- INDEX: Ref12 
---
-
-CREATE INDEX Ref12 ON PERSONA(CLIENTE_ID)
-;
--- 
--- INDEX: Ref14 
---
-
-CREATE INDEX Ref14 ON SERVICIO_EVALUACION(CLIENTE_ID)
-;
--- 
--- INDEX: Ref13 
---
-
-CREATE INDEX Ref13 ON TARJETA(CLIENTE_ID)
-;
